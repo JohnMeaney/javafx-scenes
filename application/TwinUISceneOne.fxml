@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneOneController">
+   <left>
+      <Button mnemonicParsing="false" onAction="#proceedToSecondScene" text="Proceed" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <Label text="WELCOME TO SCENE ONE" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <TextArea prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <right>
+      <TextArea prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </right>
+   <top>
+      <TextField fx:id="usefulText" promptText="Type a thought for the day, then press Proceed." BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
